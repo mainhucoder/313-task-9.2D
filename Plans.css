@@ -1,0 +1,94 @@
+/* Container styles */
+.screen {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Page heading */
+  h1 {
+    font-size: 36px;
+    color: #0048ff;
+    margin-bottom: 20px;
+  }
+  
+  /* Pricing plan cards */
+  .pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-plan-card {
+    flex: 1 1;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 250px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 366px;
+}
+  .pricing-plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Pricing plan card headings */
+  .pricing-plan-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #0048ff;
+  }
+  
+  /* Pricing plan card prices */
+  .pricing-plan-card p {
+    font-size: 20px;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  /* Pricing plan card benefits list */
+  .pricing-plan-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .pricing-plan-card li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Payment button style */
+  .payment-button {
+    background-color: #0048ff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .payment-button:hover {
+    background-color: #ff8c00;
+  }
+  
